@@ -9,7 +9,7 @@ model_pickle = open("classifier.pkl", "rb")
 
 @app.route("/ping", methods=['GET'])
 def ping():
-    return {"message": "Welcome Prithvi"}
+    return {"message": "Welcome Dhriti"}
 
 @app.route("/", methods=['GET'])
 def hello():
