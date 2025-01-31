@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:869935065581:task-definition/jancicdprithvitask:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:329599641925:task-definition/deccdprithvi_task:1",
     "containerDefinitions": [
         {
-            "name": "jancicdprithvi",
-            "image": "869935065581.dkr.ecr.us-east-1.amazonaws.com/jancicdprithvi:latest",
+            "name": "deccdprithvi",
+            "image": "329599641925.dkr.ecr.us-east-1.amazonaws.com/deccdprithvi:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -23,7 +23,7 @@
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "/ecs/jancicdprithvitask",
+                    "awslogs-group": "/ecs/deccdprithvi_task",
                     "mode": "non-blocking",
                     "awslogs-create-group": "true",
                     "max-buffer-size": "25m",
@@ -35,8 +35,8 @@
             "systemControls": []
         }
     ],
-    "family": "jancicdprithvitask",
-    "executionRoleArn": "arn:aws:iam::869935065581:role/ecsTaskExecutionRole",
+    "family": "deccdprithvi_task",
+    "executionRoleArn": "arn:aws:iam::329599641925:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
     "volumes": [],
@@ -84,8 +84,8 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2025-01-28T23:38:01.222Z",
-    "registeredBy": "arn:aws:iam::869935065581:user/devops_user_2416940_16672",
+    "registeredAt": "2025-01-30T22:57:13.425Z",
+    "registeredBy": "arn:aws:iam::329599641925:user/devops_user_2416940_17177",
     "enableFaultInjection": false,
     "tags": []
 }
