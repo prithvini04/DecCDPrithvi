@@ -1,4 +1,4 @@
-{
+fv{
     "taskDefinitionArn": "arn:aws:ecs:us-east-1:329599641925:task-definition/deccdprithvi_task:1",
     "containerDefinitions": [
         {
@@ -85,7 +85,6 @@
         "operatingSystemFamily": "LINUX"
     },
     "registeredAt": "2025-01-30T22:57:13.425Z",
-    "registeredBy": "arn:aws:iam::329599641925:user/devops_user_2416940_17177",
-    "enableFaultInjection": false,
+    "registeredBy": "arn:aws:iam::329599641925:user/devops_user_2416940_17177"
     "tags": []
 }
