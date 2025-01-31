@@ -1,4 +1,4 @@
-fv{
+{
     "taskDefinitionArn": "arn:aws:ecs:us-east-1:329599641925:task-definition/deccdprithvi_task:1",
     "containerDefinitions": [
         {
